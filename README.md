@@ -1,5 +1,6 @@
 # Interactive-Photo-Gallery
 Treehouse Project #5
+https://teamtreehouse.com/projects/an-interactive-photo-gallery
 
 Before you start
 To prepare for this project you'll need to make sure you complete and understand these steps.
