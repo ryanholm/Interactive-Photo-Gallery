@@ -4,35 +4,44 @@
     <meta charset="UTF-8">
     <title>Interactive Photo Gallery by Ryan Holm</title>
     <link href="node_modules/lightbox2/dist/css/lightbox.css" rel="stylesheet"/>
-    <link rel="stylesheet" type="text/css" href="master.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"
+    <link href="normalize.css" rel="stylesheet">
+    <link href="master.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
-<div class="row">
-    <div class="column">
-        <a href="photos/01.jpg" data-lightbox="gallery" data-title="Sky" data-alt="sky"><img src="photos/thumbnails/01.jpg" alt=""/></a>
-        <a href="photos/02.jpg" data-lightbox="gallery" data-title="Lake" data-alt="lake"><img src="photos/thumbnails/02.jpg" alt=""/></a>
-        <a href="photos/03.jpg" data-lightbox="gallery" data-title="Green Field" data-alt="green field"><img src="photos/thumbnails/03.jpg" alt=""/></a>
+
+<div class="container">
+    <div class="search-area">
+        <label for="search"><input id="search" name="search" placeholder="search your dreams........" type="text" data-list="list"></label>
     </div>
-    <div class="column">
-        <a href="photos/04.jpg" data-lightbox="gallery" data-title="Icebergs" data-alt="icebergs"><img src="photos/thumbnails/04.jpg" alt=""/></a>
-        <a href="photos/05.jpg" data-lightbox="gallery" data-title="Cliffs" data-alt="cliffs"><img src="photos/thumbnails/05.jpg" alt=""/></a>
-        <a href="photos/06.jpg" data-lightbox="gallery" data-title="Meadow Bridge" data-alt="meadow bridge"><img src="photos/thumbnails/06.jpg" alt=""/></a>
-    </div>
-    <div class="column">
-        <a href="photos/07.jpg" data-lightbox="gallery" data-title="Farm" data-alt="farm"><img src="photos/thumbnails/07.jpg"  alt=""/></a>
-        <a href="photos/08.jpg" data-lightbox="gallery" data-title="Beach Dunes" data-alt="beach dunes"><img src="photos/thumbnails/08.jpg" alt=""/></a>
-        <a href="photos/09.jpg" data-lightbox="gallery" data-title="Silk Road" data-alt="silk road"><img src="photos/thumbnails/09.jpg" alt=""/></a>
-    </div>
-    <div class="column">
-        <a href="photos/10.jpg" data-lightbox="gallery" data-title="Ocean" data-alt="ocean"><img src="photos/thumbnails/10.jpg" alt=""/></a>
-        <a href="photos/11.jpg" data-lightbox="gallery" data-title="Cave" data-alt="cave"><img src="photos/thumbnails/11.jpg" alt=""/></a>
-        <a href="photos/12.jpg" data-lightbox="gallery" data-title="Mountain" data-alt="mountain"><img src="photos/thumbnails/12.jpg" alt=""/></a>
-    </div>
+        <div class="grid">
+            <div class="column">
+                <a href="photos/01.jpg" class="lightboxdesign" data-lightbox="gallery" data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields." data-alt="Hay Bales"><img src="photos/thumbnails/01.jpg" alt=""/></a>
+                <a href="photos/02.jpg" class="lightboxdesign" data-lightbox="gallery" data-title="The lake was so calm today. We had a great view of the snow on the mountains from here." data-alt="lake"><img src="photos/thumbnails/02.jpg" alt=""/></a>
+                <a href="photos/03.jpg" class="lightboxdesign" data-lightbox="gallery" data-title="I hiked to the top of the mountain and got this picture of the canyon and trees below." data-alt="Canyon"><img src="photos/thumbnails/03.jpg" alt=""/></a>
+            </div>
+            <div class="column">
+                <a href="photos/04.jpg" class="lightboxdesign" data-lightbox="gallery" data-title="It was amazing to see an iceberg up close, it was so cold but didn’t snow today." data-alt="Icebergs"><img src="photos/thumbnails/04.jpg" alt=""/></a>
+                <a href="photos/05.jpg" class="lightboxdesign" data-lightbox="gallery" data-title="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons." data-alt="Desert"><img src="photos/thumbnails/05.jpg" alt=""/></a>
+                <a href="photos/06.jpg" class="lightboxdesign" data-lightbox="gallery" data-title="Fall is coming, I love when the leaves on the trees start to change color." data-alt="Fall"><img src="photos/thumbnails/06.jpg" alt=""/></a>
+            </div>
+            <div class="column">
+                <a href="photos/07.jpg" class="lightboxdesign" data-lightbox="gallery" data-title="I drove past this plantation yesterday, everything is so green!" data-alt="Plantation"><img src="photos/thumbnails/07.jpg"  alt=""/></a>
+                <a href="photos/08.jpg" class="lightboxdesign" data-lightbox="gallery" data-title="My summer vacation to the Oregon Coast. I love the sandy dunes!" data-alt="Dunes"><img src="photos/thumbnails/08.jpg" alt=""/></a>
+                <a href="photos/09.jpg" class="lightboxdesign" data-lightbox="gallery" data-title="We enjoyed a quiet stroll down this countryside lane." data-alt="Countryside Lane"><img src="photos/thumbnails/09.jpg" alt=""/></a>
+            </div>
+            <div class="column">
+                <a href="photos/10.jpg" class="lightboxdesign" data-lightbox="gallery" data-title="Sunset at the coast! The sky turned a lovely shade of orange." data-alt="Sunset"><img src="photos/thumbnails/10.jpg" alt=""/></a>
+                <a href="photos/11.jpg" class="lightboxdesign" data-lightbox="gallery" data-title="I did a tour of a cave today and the view of the landscape below was breathtaking." data-alt="Cave"><img src="photos/thumbnails/11.jpg" alt=""/></a>
+                <a href="photos/12.jpg" class="lightboxdesign" data-lightbox="gallery" data-title="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in." data-alt="Bluebells"><img src="photos/thumbnails/12.jpg" alt=""/></a>
+            </div>
+        </div>
 </div>
 
 <script src="node_modules/jquery/dist/jquery.js"></script>
 <script src="node_modules/lightbox2/dist/js/lightbox.js"></script>
+<script type="text/javascript" src="master.js"></script>
 
 </body>
 
