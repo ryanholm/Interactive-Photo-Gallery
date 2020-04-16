@@ -9,17 +9,24 @@ body {
     line-height: 1.5;
 }
 
-.container {
+.container, .search-area, .grid {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
     flex-direction: column;
 }
 
 .search-area {
-    display: flex;
-    justify-content: center;
     max-width: 70%;
     margin: 0 auto;
+}
+
+.grid {
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
 }
 
 input[type="text"] {
@@ -31,21 +38,9 @@ input[type="text"] {
     border: 3px solid gray;
 }
 
-.grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-}
-
 .grid img {
     padding: 20px 35px;
 }
-
-/*@media (min-width: 268px) {*/
-/*    */
-/*}*/
 
 @media (min-width: 768px) {
 
