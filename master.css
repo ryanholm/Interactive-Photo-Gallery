@@ -26,7 +26,7 @@ input[type="text"] {
     border-radius: 5px;
     padding: 10px;
     margin: 20px;
-    width: 500px;
+    width: 200px;
     height: auto;
     border: 3px solid gray;
 }
@@ -43,10 +43,24 @@ input[type="text"] {
     padding: 20px 35px;
 }
 
+/*@media (min-width: 268px) {*/
+/*    */
+/*}*/
+
 @media (min-width: 768px) {
+
+    .column {
+        display: flex;
+        justify-content: center;
+    }
+
     .container {
         max-width: 1000px;
         margin: 0 auto;
+    }
+
+    input[type="text"] {
+        width: 400px;
     }
 }
 
@@ -55,7 +69,6 @@ input[type="text"] {
         max-width: 1200px;
         margin: 0 auto;
     }
-
     .search-area {
         display: inline-block;
         margin: auto;
