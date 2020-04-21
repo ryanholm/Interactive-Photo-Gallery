@@ -51,11 +51,15 @@ input[type="text"] {
         width: 400px;
     }
     .grid img {
-        padding: 10px 25px;
+        padding: 10px 15px;
     }
-    .column img {
-        width: 30%;
+    .column a {
+        width: 28%;
         height: auto;
+    }
+
+    ul {
+        padding-inline-start: 0px;
     }
 }
 
@@ -71,7 +75,7 @@ input[type="text"] {
     input[type="text"] {
         width: 500px;
     }
-    .column img {
+    .column a {
         width: 32%;
         height: auto;
     }
