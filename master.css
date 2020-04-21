@@ -21,6 +21,7 @@ body {
 .search-area {
     max-width: 70%;
     margin: 0 auto;
+    padding-left: 40px;
 }
 
 .grid {
@@ -39,8 +40,9 @@ input[type="text"] {
 }
 
 .grid img {
-    padding: 20px 35px;
+    padding: 20px 25px;
 }
+
 
 @media (min-width: 768px) {
     .container {
@@ -59,7 +61,7 @@ input[type="text"] {
     }
 
     ul {
-        padding-inline-start: 0px;
+        padding-inline-start: 20px;
     }
 }
 
@@ -76,7 +78,7 @@ input[type="text"] {
         width: 500px;
     }
     .column a {
-        width: 32%;
+        width: 30%;
         height: auto;
     }
 

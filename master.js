@@ -7,8 +7,8 @@ $("#search").on("keyup", function() {
     });
 });
 
-lightbox.option({
-    wrapAround: true,
-    alwaysShowNavOnTouchDevices: true,
-    showImageNumberLabel: false
-});
+// lightbox.option({
+//     wrapAround: true,
+//     alwaysShowNavOnTouchDevices: true,
+//     showImageNumberLabel: false
+// });
