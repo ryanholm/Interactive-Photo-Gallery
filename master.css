@@ -43,18 +43,23 @@ input[type="text"] {
 }
 
 @media (min-width: 768px) {
-
     .container {
         max-width: 1000px;
         margin: 0 auto;
     }
-
     input[type="text"] {
         width: 400px;
     }
+    .grid img {
+        padding: 10px 25px;
+    }
+    .column img {
+        width: 30%;
+        height: auto;
+    }
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 992px) {
     .container {
         max-width: 1200px;
         margin: 0 auto;
@@ -62,5 +67,27 @@ input[type="text"] {
     .search-area {
         display: inline-block;
         margin: auto;
+    }
+    input[type="text"] {
+        width: 500px;
+    }
+    .column img {
+        width: 32%;
+        height: auto;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+    .search-area {
+        display: inline-block;
+        margin: auto;
+    }
+    input[type="text"] {
+        width: 550px;
     }
 }
