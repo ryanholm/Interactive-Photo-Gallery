@@ -24,11 +24,16 @@ body {
     padding-left: 40px;
 }
 
-.grid {
+.grid a {
     flex-wrap: wrap;
     width: 100%;
     height: auto;
 }
+
+.grid img {
+    padding: 20px 25px;
+}
+
 
 input[type="text"] {
     border-radius: 5px;
@@ -38,11 +43,6 @@ input[type="text"] {
     height: auto;
     border: 3px solid gray;
 }
-
-.grid img {
-    padding: 20px 25px;
-}
-
 
 @media (min-width: 768px) {
     .container {
@@ -55,8 +55,13 @@ input[type="text"] {
     .grid img {
         padding: 10px 15px;
     }
-    .column a {
-        width: 28%;
+    ul {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+    ul a {
+        width: 108%;
         height: auto;
     }
     ul {
@@ -76,7 +81,12 @@ input[type="text"] {
     input[type="text"] {
         width: 500px;
     }
-    .column a {
+    ul {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+    ul a {
         width: 30%;
         height: auto;
     }
@@ -94,5 +104,10 @@ input[type="text"] {
     }
     input[type="text"] {
         width: 550px;
+    }
+    ul {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
     }
 }
