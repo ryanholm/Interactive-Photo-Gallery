@@ -111,3 +111,86 @@ input[type="text"] {
         column-count: 4;
     }
 }
+
+/*Alternate Solution*/
+
+/*     * {*/
+/*         box-sizing: border-box;*/
+/*     }*/
+/*body {*/
+/*    font-family: 'Montserrat', sans-serif;*/
+/*    color: whitesmoke;*/
+/*    font-size: 17px;*/
+/*    line-height: 1.5;*/
+/*}*/
+/*.search-area, .grid ul {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    flex-wrap: wrap;*/
+/*}*/
+/*.container {*/
+/*    margin: 0 auto;*/
+/*}*/
+/*.search-area {*/
+/*    max-width: 70%;*/
+/*    margin: 0 auto;*/
+/*}*/
+/*.grid {*/
+/*    width: 100%;*/
+/*    margin: auto;;*/
+/*}*/
+/*.grid ul {*/
+/*    padding: 0;*/
+/*}*/
+/*.grid li, .grid li a {*/
+/*    display: block;*/
+/*}*/
+/*.grid img {*/
+/*    width: 100%;*/
+/*    padding: 20px 25px;*/
+/*}*/
+/*input[type="text"] {*/
+/*    border-radius: 5px;*/
+/*    padding: 10px;*/
+/*    margin: 20px;*/
+/*    width: 200px;*/
+/*    border: 3px solid gray;*/
+/*}*/
+/*@media (min-width: 480px) {*/
+/*    .grid li {*/
+/*        width: 50%;*/
+/*    }*/
+/*}*/
+/*@media (min-width: 768px) {*/
+/*    .container {*/
+/*        max-width: 700px;*/
+/*    }*/
+/*    .grid li {*/
+/*        width: 33.333333%;*/
+/*    }*/
+/*    input[type="text"] {*/
+/*        width: 400px;*/
+/*    }*/
+/*    .grid img {*/
+/*        padding: 10px 15px;*/
+/*    }*/
+/*}*/
+/*@media (min-width: 992px) {*/
+/*    .container {*/
+/*        max-width: 900px;*/
+/*    }*/
+/*    .grid li {*/
+/*        width: 25%;*/
+/*    }*/
+/*    input[type="text"] {*/
+/*        width: 500px;*/
+/*    }*/
+/*}*/
+/*@media (min-width: 1200px) {*/
+/*    .container {*/
+/*        max-width: 1000px;*/
+/*    }*/
+/*    input[type="text"] {*/
+/*        width: 550px;*/
+/*    }*/
+/*}*/
