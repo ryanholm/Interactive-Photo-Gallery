@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -21,7 +22,6 @@ body {
 .search-area {
     max-width: 70%;
     margin: 0 auto;
-    padding-left: 40px;
 }
 
 .grid a {
@@ -63,9 +63,6 @@ input[type="text"] {
     ul a {
         width: 108%;
         height: auto;
-    }
-    ul {
-        padding-inline-start: 20px;
     }
 }
 
@@ -112,7 +109,8 @@ input[type="text"] {
     }
 }
 
-/*Alternate Solution*/
+/* PLEASE IGNORE The code below, it is an alternate solution for my personal reference and not for the Treehouse Project
+I want to document the how to control the layout with two grid layout scenarios  */
 
 /*     * {*/
 /*         box-sizing: border-box;*/
